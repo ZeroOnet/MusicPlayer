@@ -200,16 +200,10 @@
     MPNowPlayingInfoCenter *center = [MPNowPlayingInfoCenter defaultCenter];
     center.nowPlayingInfo = MPInfo;
     
-    [self becomeFirstResponder];
-    
     [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
 }
 
 #pragma mark - Remote Control Events Observer
-
-- (BOOL)canBecomeFirstResponder {
-    return YES;
-}
 
 - (void)remoteControlReceivedWithEvent:(UIEvent *)event {
     switch (event.subtype) {
@@ -235,6 +229,14 @@
 
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
     [self nextSong];
+}
+
+- (void)audioPlayerBeginInterruption:(AVAudioPlayer *)player {
+    [self playOrPauseSong];
+}
+
+- (void)audioPlayerEndInterruption:(AVAudioPlayer *)player {
+    [self playOrPauseSong];
 }
 
 #pragma mark - IB Control
