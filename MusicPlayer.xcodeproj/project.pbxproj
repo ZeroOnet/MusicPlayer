@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1BA1991F80D3FC004F980B /* display.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA1981F80D3FC004F980B /* display.gif */; };
 		4F40F42D1DF7B81F00405C4D /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F40F4261DF7B81F00405C4D /* MusicViewController.m */; };
 		4F40F42E1DF7B81F00405C4D /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F40F4291DF7B81F00405C4D /* Music.m */; };
 		4F40F42F1DF7B81F00405C4D /* MusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F40F42C1DF7B81F00405C4D /* MusicCell.m */; };
@@ -77,6 +78,7 @@
 
 /* Begin PBXFileReference section */
 		1639227D34A6C042D65C58DA /* libPods-MusicPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MusicPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1BA1981F80D3FC004F980B /* display.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = display.gif; sourceTree = "<group>"; };
 		4F40F4251DF7B81F00405C4D /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
 		4F40F4261DF7B81F00405C4D /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		4F40F4281DF7B81F00405C4D /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
@@ -172,6 +174,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F1BA1971F80D3FC004F980B /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA1981F80D3FC004F980B /* display.gif */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
 		4F40F4231DF7B81F00405C4D /* MusicDisplayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +278,7 @@
 		4F6608E41DCCCCBA00CAC4AF /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				4F1BA1971F80D3FC004F980B /* Gif */,
 				4F6608E51DCCCCBA00CAC4AF /* Images */,
 				4F6608F81DCCCCBA00CAC4AF /* Lyrics */,
 				4F6609021DCCCCBA00CAC4AF /* Musics */,
@@ -549,6 +560,7 @@
 				4F578FE71DFA9F6A00F8F8E2 /* PlayingViewController.xib in Resources */,
 				4F66092A1DCCCCBA00CAC4AF /* 14945107.lrc in Resources */,
 				4F6609301DCCCCBA00CAC4AF /* 10736444.mp3 in Resources */,
+				4F1BA1991F80D3FC004F980B /* display.gif in Resources */,
 				4F6609311DCCCCBA00CAC4AF /* 120125029.mp3 in Resources */,
 				4F6609151DCCCCBA00CAC4AF /* bb_icon@2x.jpg in Resources */,
 				4F6609371DCCCCBA00CAC4AF /* 339744.mp3 in Resources */,
