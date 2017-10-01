@@ -2,7 +2,7 @@
 
 The main interesting points of this Demo are showing gradient lyrics when playing a song and selecting time to play. Meanwhile, next song or before song and pause/start are still displayed.
 
-The next show gradient lyrics:
+The next gif show gradient lyrics:
 
 
 
